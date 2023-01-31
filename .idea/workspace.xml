@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b26b36b-77bd-4532-9112-13cc20969a40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FilmManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FilmManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FilmManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FilmManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,47 +39,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FilmManagerTest.testFindLastFilmsLessThanLimit">
-    <configuration name="FilmManagerTest.testFindAllFilms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FilmManagerTest.testFindLastFilmsOverLimit">
+    <configuration name="FilmManagerTest.testFindLastFilmsFewLessThanLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FilmManager" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FilmManagerTest" />
-      <option name="METHOD_NAME" value="testFindAllFilms" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FilmManagerTest.testFindAllFilmsWithoutAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FilmManager" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FilmManagerTest" />
-      <option name="METHOD_NAME" value="testFindAllFilmsWithoutAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FilmManagerTest.testFindLastFilms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FilmManager" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FilmManagerTest" />
-      <option name="METHOD_NAME" value="testFindLastFilms" />
+      <option name="METHOD_NAME" value="testFindLastFilmsFewLessThanLimit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,12 +75,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FilmManagerTest.testFindLastFilmsLessThanLimit1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FilmManager" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FilmManagerTest" />
+      <option name="METHOD_NAME" value="testFindLastFilmsLessThanLimit1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilmManagerTest.testFindLastFilmsLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FilmManager" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FilmManagerTest" />
+      <option name="METHOD_NAME" value="testFindLastFilmsLimit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilmManagerTest.testFindLastFilmsOverLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FilmManager" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FilmManagerTest" />
+      <option name="METHOD_NAME" value="testFindLastFilmsOverLimit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FilmManagerTest.testFindLastFilmsOverLimit" />
+        <item itemvalue="JUnit.FilmManagerTest.testFindLastFilmsLimit" />
         <item itemvalue="JUnit.FilmManagerTest.testFindLastFilmsLessThanLimit" />
-        <item itemvalue="JUnit.FilmManagerTest.testFindLastFilms" />
-        <item itemvalue="JUnit.FilmManagerTest.testFindAllFilmsWithoutAdd" />
-        <item itemvalue="JUnit.FilmManagerTest.testFindAllFilms" />
+        <item itemvalue="JUnit.FilmManagerTest.testFindLastFilmsFewLessThanLimit" />
+        <item itemvalue="JUnit.FilmManagerTest.testFindLastFilmsLessThanLimit1" />
       </list>
     </recent_temporary>
   </component>
