@@ -79,8 +79,12 @@ public class FilmManagerTest {
         manager.addFilm("Film IX");
         manager.addFilm("Film X");
         manager.addFilm("Film XI");
+        manager.addFilm("Film XII");
+        manager.addFilm("Film XIII");
+        manager.addFilm("Film XIV");
+        manager.addFilm("Film XV");
 
-        String[] expected = {"Film I", "Film II", "Film III", "Film IV", "Film V", "Film VI", "Film VII", "Film VIII", "Film IX", "Film X"};
+        String[] expected = {"Film VI", "Film VII", "Film VIII", "Film IX", "Film X", "Film XI", "Film XII", "Film XIII", "Film XIV, Film XV"};
         String[] actual = manager.findLast();
     }
 
@@ -126,8 +130,12 @@ public class FilmManagerTest {
         manager.addFilm("Film IX");
         manager.addFilm("Film X");
         manager.addFilm("Film XI");
+        manager.addFilm("Film XII");
+        manager.addFilm("Film XIII");
+        manager.addFilm("Film XIV");
+        manager.addFilm("Film XV");
 
-        String[] expected = {"Film I", "Film II", "Film III", "Film IV", "Film V", "Film VI", "Film VII", "Film VIII", "Film IX", "Film X"};
+        String[] expected = {"Film VI", "Film VII", "Film VIII", "Film IX", "Film X", "Film XI", "Film XII", "Film XIII", "Film XIV, Film XV"};
         String[] actual = manager.findLast();
     }
 
